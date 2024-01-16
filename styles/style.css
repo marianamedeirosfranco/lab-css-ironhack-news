@@ -243,4 +243,17 @@ header {
   .main-article .image {
     width: 50%;
   }
+
+  .main-article .content {
+    width: 50%;
+  }
+
+  .articles-container {
+    flex-direction: row;
+  }
+
+  .article {
+    width: 44%;
+    margin-bottom: 30px;
+  }
 }

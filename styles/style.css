@@ -228,4 +228,19 @@ header {
   }
 }
 
+/* Iteration 2 | Small Screens (width > 760px and width < 1024px) */
+@media (min-width: 760px) and (max-width: 1024px) {
+  .navbar li {
+    width: 33.33%;
+    border-right: 1px solid #ffffff;
+    border-bottom: none;
+  }
 
+  .main-article {
+    flex-direction: row;
+  }
+
+  .main-article .image {
+    width: 50%;
+  }
+}

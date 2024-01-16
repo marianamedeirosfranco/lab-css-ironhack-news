@@ -257,3 +257,48 @@ header {
     margin-bottom: 30px;
   }
 }
+
+/* Bonus: Iteration 3 | Hide the Navbar Links */
+/* 
+Bonus: Iteration 3 | Small Mobile Screens (width < 480px)
+
+In this bonus iteration, your task is to **hide the "Navbar" links on small mobile screens** :iphone: and instead display the *"menu"* icon. 
+
+To do this, you will need to add a new element to the `index.html` to display the menu icon and add the necessary styles to the `style.css` file.
+You can find the menu icon in the `images` folder.
+
+The final result should look like in the below image.
+
+*/
+
+@media (max-width: 480px) {
+  .newspaper-name {
+    border-bottom: none;
+  }
+  .navbar li {
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-icon {
+    width: 30px;
+    height: auto;
+    /* Change from "display: none" set above to "display: inline" to show the element */
+    display: inline;
+  }
+
+  main {
+    padding: 8px 0px;
+  }
+
+  .main-article {
+    padding: 10px 1px;
+  }
+}
